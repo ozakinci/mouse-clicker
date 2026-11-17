@@ -27,8 +27,8 @@ dotnet run -- --interval-ms 250
 - Never commit `bin/`, `obj/` or `releases/`.
 - Verify a change by building and running it: press F8, confirm clicking starts and stops, and confirm the interval flag takes effect.
 
-## Session startup
+## Session triggers (clock in / clock out)
 
 1. **Project memory** - this file is auto-loaded; use it directly.
 2. **README freshness** - check that `README.md` matches the current features, flags and commands; update it when they drift.
-3. **Clock in / clock out** - this project defines no extra start or end steps; the global blocks apply as-is.
+3. **Global blocks** - no project-specific start or end steps; the global blocks apply as-is.
